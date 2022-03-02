@@ -5,6 +5,12 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.babylonjs.com/babylon.js"></script>
+  <script src="https://cdn.babylonjs.com/loaders/babylonjs.loaders.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
   <title>Workout</title>
 </head>
 
@@ -15,10 +21,62 @@
 -->
 
 <body>
+  <h1>Strength</h1>
+  <div class="alternatives">
+    <div>
+      <h2>Pull-up (3 series of 5-8 reps)</h2>
+      <canvas id="Pull up"></canvas>
+    </div>
+    <div>
+      <h2>TRX Assisted Pull-up (3 series of 5-8 reps)</h2>
+      <canvas id="TRX Assisted Pull-up"></canvas>
+    </div>
+  </div>
+
+  <h2>Squat (3 series of 5-8 reps)</h2>
+  <canvas id="Squat"></canvas>
+
+  <h2>Hanging Knee Raises (3 series of 8-12 reps)</h2>
+  <canvas id="Hanging knee raises"></canvas>
+
+  <div class="alternatives">
+    <h2>Push-up (3 series of 5-8 reps)</h2>
+    <canvas id="Push up"></canvas>
+    <div>
+      <h2>TRX chest press (3 series of 5-8 reps)</h2>
+      <canvas id="TRX chest press"></canvas>
+    </div>
+  </div>
+
+  <h2>TRX Row (3 series of 5-8 reps)</h2>
+  <canvas id="TRX inverted row"></canvas>
+
+  <h2>Single-leg Romanian deadlift (3 series of 5-8 reps)</h2>
+  <canvas id="Single-leg Romanian deadlift"></canvas>
+
+  <div class="alternatives">
+    <div>
+      <h2>Diamond pushup (3 series of 5-8 reps)</h2>
+      <canvas id="Diamond pushup"></canvas>
+    </div>
+    <div>
+      <h2>TRX triceps dip (3 series of 5-8 reps)</h2>
+      <canvas id="TRX triceps dips"></canvas>
+    </div>
+    <div>
+      <h2>TRX tricep kick back (3 series of 5-8 reps)</h2>
+      <canvas id="TRX tricep kick back"></canvas>
+    </div>
+  </div>
+
+  <h2>TRX rollout (3 series of 5-8 reps)</h2>
+  <canvas id="TRX rollout"></canvas>
+
+  <!-- 
+
   <h1>Warm-up</h1>
 
   <h1>Strength</h1>
-  <!-- 1 -->
   <div class="alternatives">
     <h2>Pull-up (3 series of 5-8 reps)</h2>
 
@@ -31,20 +89,17 @@
     <h3>Scapular Pulls</h3>
     <img src="scapular_pulls.gif" alt="">
   </div>
-  <!-- 2 -->
+
   <h2>Squat (3 series of 5-8 reps)</h2>
   <img src="squat.gif" alt="">
-  <!-- 3 -->
+
   <h2>TRX dips (3 series of 5-8 reps)</h2>
   <img src="trx_dip.gif" alt="">
-  <!-- 4 -->
   <h2>Single Leg Deadlift (3 series of 5-8 reps)</h2>
   <img src="romanian_single_leg_deadlift.gif" alt="">
-  <!-- 5 -->
   <h2>TRX Row (3 series of 5-8 reps)</h2>
   <img src="trx_inverted_row.gif" alt="">
   <img src="trx_row.gif" alt="">
-  <!-- 6 -->
   <div class="alternatives">
     <h2>(TRX) Push-up (3 series of 5-8 reps)</h2>
     <img src="push_ups.gif" alt="">
@@ -53,7 +108,6 @@
     <h2>TRX Chest press (3 series of 5-8 reps)</h2>
     <img src="trx_chest_press.gif" alt="">
   </div>
-  <!-- 7 -->
   <div class="alternatives">
     <h2>Plank (3 series of 30 seconds)</h2>
     <img src="plank.jpg" alt="">
@@ -65,16 +119,17 @@
     <img src="tucked_leg_raises.gif" alt="">
     <img src="leg_raises.gif" alt="">
   </div>
-  <!-- 8 -->
   <h2>TRX Pallof Press (3 series of 8-12 reps)</h2>
   <img src="trx_pallof_press.gif" alt="">
-  <!-- 9 -->
   <div class="alternatives">
     <h2>Arch Body Rocks (3 series of 8-12 reps)</h2>
     <img src="arch_rock.gif" alt="">
     <h2>Reverse Hyperextension (3 series of 8-12 reps)</h2>
     <img src="reverse_hyperextension.gif" alt="">
   </div>
+
+-->
 </body>
+<script src="index.js"></script>
 
 </html>

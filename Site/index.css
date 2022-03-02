@@ -1,0 +1,35 @@
+
+body, div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1f1e29;
+  color:white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+  font-size: 2em;
+  font-weight:300;
+  text-transform: uppercase;
+}
+
+h1, h2{
+  font-size: 1.5em;
+  font-weight:300;
+}
+
+div{
+  margin-right:2%;
+  margin-left:2%
+}
+
+.alternatives{
+  display: flex;
+  flex-direction: row;
+}
+
+canvas {
+  height: 400px;
+  width: 400px;
+}
